@@ -1,0 +1,94 @@
+/* CSS Document */
+@import url('http://fonts.cdnfonts.com/css/black-clover-font');
+@font-face{ 
+	font-family: le-murmure;
+	src: url("../fonts/le-murmure.ttf");
+	  }
+@font-face{
+	font-family: wagon;
+	src: url("../fonts/Wagon-ExtraLight.otf")
+}
+@font-face{
+	font-family: outward;
+	src: url("../fonts/outward-block.ttf")
+}
+@font-face{
+	font-family: karrik;
+	src: url("../fonts/Karrik-Regular.ttf")
+}
+@font-face{	
+	font-family: ourobo;
+	src: url("../fonts/Ouroboros-Regular.otf");
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+main {
+	background-image: url("../img/blur.png");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.navbar-brand{
+	font-family: 'Black Clover Font', sans-serif;
+	background-image: url("../img/f65a07ef1cebdbfc4244e82afceb8a57.jpg");
+	-webkit-background-clip: text!important;
+	background-size: contain!important;
+	color: transparent!important;
+	cursor: pointer;
+}
+.menu-item{
+	font-family: karrik;
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+	-webkit-text-fill-color: transparent;
+	    width: 200px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 32px;
+        border: 1px solid #000;
+}
+.menu-item:hover{
+	-webkit-text-fill-color: #6663ab;
+	-webkit-text-stroke-color: #6663ab;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #f0ecfc;
+  background-image: linear-gradient(315deg, #c797eb 10%, #6663ab 74%);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+	 box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+	width: 200px;
+  height: 60px;
+	margin-top: 10px
+}
+html{
+	scroll-behavior: smooth;
+}
+input[type=submit]:hover {
+  background-color: #f0ecfc;
+  background-image: linear-gradient(215deg, #c797eb 10%, #6663ab 74%);
+}
+
+.container {
+  background-color: transparent;
+  padding: 20px;
+}

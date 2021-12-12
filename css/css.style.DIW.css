@@ -1,0 +1,67 @@
+/* CSS Document */
+@import url('http://fonts.cdnfonts.com/css/black-clover-font');
+@font-face{ 
+	font-family: le-murmure;
+	src: url("../fonts/le-murmure.ttf");
+	  }
+@font-face{
+	font-family: wagon;
+	src: url("../fonts/Wagon-ExtraLight.otf")
+}
+@font-face{
+	font-family: solide;
+	src: url("../fonts/SolideMirage-Etroit.otf")
+}
+@font-face{	
+	font-family: ourobo;
+	src: url("../fonts/Ouroboros-Regular.otf");
+}
+@font-face{
+	font-family: karrik;
+	src: url("../fonts/Karrik-Regular.ttf")
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand{
+	font-family: 'Black Clover Font', sans-serif;
+	background-image: url("../img/f65a07ef1cebdbfc4244e82afceb8a57.jpg");
+	-webkit-background-clip: text!important;
+	background-size: contain!important;
+	color: transparent!important;
+	cursor: pointer;
+}
+@keyframes rolatetext
+{
+	0%{
+		transform: rotate(360deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+.about:hover{
+	-webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+	 background-repeat: no-repeat;
+}
+.project:hover{
+	-webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+	 background-repeat: no-repeat;
+}
+.contact:hover{
+	-webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+	 background-repeat: no-repeat;
+}
+.menu__item {
+	line-height: 180px;
+}
